@@ -6,6 +6,7 @@ import com.cydeo.model.Cart;
 import java.util.UUID;
 
 public interface CartService {
+    Cart getCart();
 
     Cart addToCart(UUID productId, Integer quantity);
 
